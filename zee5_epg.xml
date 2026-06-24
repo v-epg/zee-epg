@@ -160,60 +160,12 @@
     <display-name lang="hi">TV9 Bharatvarsh</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
-  <channel id="0-9-zeempcg">
-    <display-name lang="hi">Zee MP CG</display-name>
+  <channel id="0-9-aajtak">
+    <display-name lang="hi">Aaj Tak</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
-  <channel id="0-9-zeerajasthan">
-    <display-name lang="hi">Zee Rajasthan</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-news9">
-    <display-name lang="hi">News 9</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeebihar">
-    <display-name lang="hi">Zee Bihar Jharkhand</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeempcg2">
-    <display-name lang="hi">Zee Madhya Pradesh CG</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeedelhi">
-    <display-name lang="hi">Zee Delhi NCR Haryana</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeerajnews">
-    <display-name lang="hi">Zee Rajasthan News</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeenewsup">
-    <display-name lang="hi">Zee News UP UK</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zee24kalak">
-    <display-name lang="gu">Zee 24 Kalak</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-tv9gujarati">
-    <display-name lang="gu">TV9 Gujarati</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeesarthak">
-    <display-name lang="or">Zee Sarthak</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeechitramandir">
-    <display-name lang="or">Zee Chitramandir</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeepunjab">
-    <display-name lang="pa">Zee Punjab Haryana</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeepunjabi">
-    <display-name lang="pa">Zee Punjabi</display-name>
+  <channel id="0-9-indiatoday">
+    <display-name lang="en">India Today</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
   <channel id="0-9-wion">
@@ -240,12 +192,28 @@
     <display-name lang="en">Zee Zest HD</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
-  <channel id="0-9-aajtak">
-    <display-name lang="hi">Aaj Tak</display-name>
+  <channel id="0-9-zee24kalak">
+    <display-name lang="gu">Zee 24 Kalak</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
-  <channel id="0-9-indiatoday">
-    <display-name lang="en">India Today</display-name>
+  <channel id="0-9-tv9gujarati">
+    <display-name lang="gu">TV9 Gujarati</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-zeesarthak">
+    <display-name lang="or">Zee Sarthak</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-zeechitramandir">
+    <display-name lang="or">Zee Chitramandir</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-zeepunjab">
+    <display-name lang="pa">Zee Punjab Haryana</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-zeepunjabi">
+    <display-name lang="pa">Zee Punjabi</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
   <channel id="0-9-tv9telugu">
@@ -258,6 +226,14 @@
   </channel>
   <channel id="0-9-tv9kannada">
     <display-name lang="kn">TV9 Kannada</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-zeempcg">
+    <display-name lang="hi">Zee MP CG</display-name>
+    <url>https://www.zee5.com/livetv</url>
+  </channel>
+  <channel id="0-9-news9">
+    <display-name lang="hi">News 9</display-name>
     <url>https://www.zee5.com/livetv</url>
   </channel>
 </tv>
