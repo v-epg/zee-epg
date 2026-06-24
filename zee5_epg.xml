@@ -1,239 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="zee5-epg" source-info-name="Zee5" source-info-url="https://www.zee5.com/livetv">
-  <channel id="0-9-zeetamil">
+<tv generator-info-name="zee5-epg" source-info-name="ZEE5" source-info-url="https://www.zee5.com/live-tv">
+  <channel id="ZeeTamil.in@HD">
+    <display-name lang="ta">Zee Tamil HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeTamil.in@SD">
     <display-name lang="ta">Zee Tamil</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeenewstamil">
-    <display-name lang="ta">Zee News Tamil</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeethirai">
+  <channel id="ZeeThirai.in@SD">
     <display-name lang="ta">Zee Thirai HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeetelugu">
+  <channel id="ZeeNewsTamil.in@SD">
+    <display-name lang="ta">Zee News Tamil</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeTelugu.in@HD">
+    <display-name lang="te">Zee Telugu HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeTelugu.in@SD">
     <display-name lang="te">Zee Telugu</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeecinemalu">
+  <channel id="ZeeCinemalu.in@HD">
+    <display-name lang="te">Zee Cinemalu HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeCinemalu.in@SD">
     <display-name lang="te">Zee Cinemalu</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeenewstelugu">
+  <channel id="ZeeTeluguNews.in@SD">
     <display-name lang="te">Zee News Telugu</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeekannada">
-    <display-name lang="kn">Zee Kannada</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeenewskannada">
-    <display-name lang="kn">Zee News Kannada</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeekeralam">
+  <channel id="ZeeKeralam.in@SD">
     <display-name lang="ml">Zee Keralam HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeenewsmala">
+  <channel id="ZeeNewsMalayalam.in@SD">
     <display-name lang="ml">Zee News Malayalam</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeemarathi">
+  <channel id="ZeeKannada.in@HD">
+    <display-name lang="kn">Zee Kannada HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeKannada.in@SD">
+    <display-name lang="kn">Zee Kannada</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeKannadaNews.in@SD">
+    <display-name lang="kn">Zee News Kannada</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeMarathi.in@HD">
+    <display-name lang="mr">Zee Marathi HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeMarathi.in@SD">
     <display-name lang="mr">Zee Marathi</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeeyuva">
-    <display-name lang="mr">Zee Yuva</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zee24taas">
+  <channel id="Zee24Taas.in@SD">
     <display-name lang="mr">Zee 24 Taas</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeetalkies">
+  <channel id="ZeeTalkies.in@SD">
     <display-name lang="mr">Zee Talkies HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeepower">
-    <display-name lang="mr">Zee Power HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+  <channel id="ZeeYuva.in@SD">
+    <display-name lang="mr">Zee Yuva</display-name>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeebangla">
+  <channel id="ZeeBangla.in@HD">
+    <display-name lang="bn">Zee Bangla HD</display-name>
+    <url>https://www.zee5.com/live-tv</url>
+  </channel>
+  <channel id="ZeeBangla.in@SD">
     <display-name lang="bn">Zee Bangla</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeebanglasonar">
+  <channel id="ZeeBanglaSonar.in@SD">
     <display-name lang="bn">Zee Bangla Sonar</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeebiskope">
+  <channel id="ZeeBiskope.in@SD">
     <display-name lang="bn">Zee Biskope</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zee24ghanta">
+  <channel id="Zee24Ghanta.in@SD">
     <display-name lang="bn">Zee 24 Ghanta</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-tv9bangla">
-    <display-name lang="bn">TV9 Bangla</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeetv">
+  <channel id="ZeeTV.in@SD">
     <display-name lang="hi">Zee TV</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeetvhd">
+  <channel id="ZeeTV.in@HD">
     <display-name lang="hi">Zee TV HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeecinema">
+  <channel id="ZeeCinema.in@SD">
     <display-name lang="hi">Zee Cinema</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeecinemahd">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="hi">Zee Cinema HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeenews">
+  <channel id="ZeeNews.in@SD">
     <display-name lang="hi">Zee News</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeebusiness">
+  <channel id="ZeeBusiness.in@SD">
     <display-name lang="hi">Zee Business</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-andtv">
+  <channel id="AndTV.in@SD">
     <display-name lang="hi">&amp;TV</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-andtvhd">
+  <channel id="AndTV.in@HD">
     <display-name lang="hi">&amp;TV HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-andpictures">
-    <display-name lang="hi">&amp;pictures</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-andpictureshd">
-    <display-name lang="hi">&amp;pictures HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeeanmol">
-    <display-name lang="hi">Anmol TV</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-anmolcinema">
-    <display-name lang="hi">Anmol Cinema</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-anmolcinema2">
-    <display-name lang="hi">Anmol Cinema 2</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-bigmagic">
-    <display-name lang="hi">Big Magic</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeeaction">
-    <display-name lang="hi">Zee Action</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeeclassic">
-    <display-name lang="hi">Zee Classic</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeebollywood">
-    <display-name lang="hi">Zee Bollywood</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zing">
+  <channel id="Zing.in@SD">
     <display-name lang="hi">Zing</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeebharat">
-    <display-name lang="hi">Zee Bharat</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-tv9bharatvarsh">
-    <display-name lang="hi">TV9 Bharatvarsh</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-aajtak">
+  <channel id="AajTak.in@SD">
     <display-name lang="hi">Aaj Tak</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-indiatoday">
+  <channel id="IndiaToday.in@SD">
     <display-name lang="en">India Today</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-wion">
+  <channel id="WION.in@SD">
     <display-name lang="en">WION</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeecafe">
+  <channel id="ZeeCafe.in@SD">
     <display-name lang="en">Zee Café HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-andprivehd">
-    <display-name lang="en">&amp;Privé HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
+  <channel id="TV9Bharatvarsh.in@SD">
+    <display-name lang="hi">TV9 Bharatvarsh</display-name>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-andflixhd">
-    <display-name lang="en">&amp;flix HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-andxplorHD">
-    <display-name lang="en">&amp;xplorHD</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeezest">
-    <display-name lang="en">Zee Zest HD</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zee24kalak">
-    <display-name lang="gu">Zee 24 Kalak</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-tv9gujarati">
-    <display-name lang="gu">TV9 Gujarati</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeesarthak">
-    <display-name lang="or">Zee Sarthak</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeechitramandir">
-    <display-name lang="or">Zee Chitramandir</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeepunjab">
-    <display-name lang="pa">Zee Punjab Haryana</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-zeepunjabi">
-    <display-name lang="pa">Zee Punjabi</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-tv9telugu">
+  <channel id="TV9Telugu.in@SD">
     <display-name lang="te">TV9 Telugu</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-tv9marathi">
+  <channel id="TV9Marathi.in@SD">
     <display-name lang="mr">TV9 Marathi</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-tv9kannada">
+  <channel id="TV9Kannada.in@SD">
     <display-name lang="kn">TV9 Kannada</display-name>
-    <url>https://www.zee5.com/livetv</url>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
-  <channel id="0-9-zeempcg">
-    <display-name lang="hi">Zee MP CG</display-name>
-    <url>https://www.zee5.com/livetv</url>
-  </channel>
-  <channel id="0-9-news9">
-    <display-name lang="hi">News 9</display-name>
-    <url>https://www.zee5.com/livetv</url>
+  <channel id="TV9Bangla.in@SD">
+    <display-name lang="bn">TV9 Bangla</display-name>
+    <url>https://www.zee5.com/live-tv</url>
   </channel>
 </tv>
