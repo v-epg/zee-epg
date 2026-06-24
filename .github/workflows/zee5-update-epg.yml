@@ -4,16 +4,23 @@ on:
   workflow_dispatch:
     inputs:
       days:
-        description: 'Days to fetch (1-7)'
-        default: '3'
+        description: "Days to fetch (1-7)"
+        required: false
+        default: "3"
       lang:
-        description: 'Language filter (tamil,telugu,kannada,hindi...)'
-        default: ''
+        description: "Language filter (tamil,telugu,kannada,hindi...)"
+        required: false
+        default: ""
+
   schedule:
-    - cron: '0 20 * * *'   # Daily 1:30 AM IST
+    - cron: "0 20 * * *" # 1:30 AM IST
 
 permissions:
   contents: write
+
+concurrency:
+  group: zee5-epg
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -42,23 +49,44 @@ jobs:
         run: |
           DAYS="${{ github.event.inputs.days || '3' }}"
           LANG="${{ github.event.inputs.lang }}"
+
+          echo "Days: $DAYS"
+          echo "Lang: $LANG"
+
+          CMD="python3 private-src/zee5_epg.py \
+            --days $DAYS \
+            --output zee5_epg.xml \
+            --gz"
+
           if [ -n "$LANG" ]; then
-            python3 private-src/zee5_epg.py --days $DAYS --lang "$LANG" --output zee5_epg.xml --gz
-          else
-            python3 private-src/zee5_epg.py --days $DAYS --output zee5_epg.xml --gz
+            CMD="$CMD --lang \"$LANG\""
           fi
+
+          echo "Running: $CMD"
+          eval "$CMD"
+
+      - name: Verify Output
+        run: |
+          test -f zee5_epg.xml
+          test -f zee5_epg.xml.gz
 
       - name: Show Stats
         run: |
           ls -lh zee5_epg.xml zee5_epg.xml.gz
-          echo "Channels   : $(grep -c '<channel' zee5_epg.xml)"
-          echo "Programmes : $(grep -c '<programme' zee5_epg.xml)"
+          echo "Channels   : $(grep -c '<channel ' zee5_epg.xml || true)"
+          echo "Programmes : $(grep -c '<programme ' zee5_epg.xml || true)"
 
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add zee5_epg.xml zee5_epg.xml.gz
-          git diff --staged --quiet && exit 0
-          git commit -m "EPG Update $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          if git diff --cached --quiet; then
+            echo "No changes detected"
+            exit 0
+          fi
+
+          git commit -m "Zee5 EPG Update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
