@@ -37,6 +37,7 @@ jobs:
 
       - name: Generate EPG
         env:
+          SUNNXT_PROXY: ${{ secrets.SUNNXT_PROXY }}
           ZEE5_TOKEN: ${{ secrets.ZEE5_TOKEN }}
         run: |
           DAYS="${{ github.event.inputs.days || '3' }}"
