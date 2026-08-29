@@ -9728,11 +9728,6 @@
     <desc lang="bn">Facing tough challenges every day, a dedicated parent raises three kids alone, giving everything they have to build a brighter future for the whole family.</desc>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20260830000000 +0530" stop="20260830003000 +0530" channel="ZeeBangla.in@HD">
-    <title lang="bn">Annapurnar Lokkhira</title>
-    <desc lang="bn">Facing tough challenges every day, a dedicated parent raises three kids alone, giving everything they have to build a brighter future for the whole family.</desc>
-    <category lang="en">Entertainment</category>
-  </programme>
   <programme start="20260828002900 +0530" stop="20260828010000 +0530" channel="ZeeBangla.in@HD">
     <title lang="bn">Saat Pake Bandha</title>
     <desc lang="bn">Rahul agrees to marry Pallavi to fulfill his father's wish, but only as a contract. Their relationship takes an unexpected turn when Rahul meets with a life-changing accident.</desc>
@@ -17589,8 +17584,8 @@
     <category lang="en">News</category>
   </programme>
   <programme start="20260830000000 +0530" stop="20260830001000 +0530" channel="AajTak.in@SD">
-    <title lang="hi">The News</title>
-    <desc lang="hi">Stay updated with breaking news, political developments, exclusive reports and expert analysis as leading journalists bring the latest national and international headlines.</desc>
+    <title lang="hi">News</title>
+    <desc lang="hi">The host presents the latest political, social, sports and economic news updates and speaks about the recent developments from around the world.</desc>
     <category lang="en">News</category>
   </programme>
   <programme start="20260828000000 +0530" stop="20260828001000 +0530" channel="AajTak.in@SD">
